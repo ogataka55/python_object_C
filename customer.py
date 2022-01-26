@@ -14,7 +14,7 @@ class Customer:
             return "1200"
         elif 3 < self.age < 20:
             return "1000"
-        elif self.age >= 75:
+        elif 75 <= self.age:
             return "500"  # C6
         else:
             return "0"  # C5
