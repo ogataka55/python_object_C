@@ -20,7 +20,7 @@ class Customer:
             return "0"  # C5
 
     def info_csv(self):  # C-4
-        return f"{self.full_name()}, {self.age}, {self.entry_fee()}"
+        return f"{self.full_name()},{self.age},{self.entry_fee()}"
 
     def info_tab(self):  # C-7
         return f"{self.full_name()}\t{self.age}\t{self.entry_fee()}"  # \t タブ区切り
